@@ -1,9 +1,5 @@
-# Kingbri's TS base
+# ShareGPT Reformatter
 
-This is a TypeScript project to help jumpstart work on various projects since TS requires a lot of configuration beforehand to make it usable.
+This is a TypeScript project that reformats datasets into the ShareGPT format.
 
-All necessary packages are present in dev dependencies, but it's recommended to have a global installation of `typescript`, `eslint`, and `prettier`.
-
-
-
-
+The project currently has support for the [PIPPA dataset](https://huggingface.co/datasets/PygmalionAI/PIPPA), but it can be repuruposed and used for any dataset.
