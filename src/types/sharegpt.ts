@@ -2,7 +2,7 @@
 export interface ShareGPTChat {
     id: string,
     bot: ShareGPTBotInfo,
-    roles: Array<string> | null,
+    roles?: Array<string>,
     conversations: Array<ShareGPTConversation>
 }
 
